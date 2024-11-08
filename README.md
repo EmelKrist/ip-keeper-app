@@ -35,7 +35,7 @@
 1. Для начала нужно клонировать данный репозиторий в папку /home OpenServer'а.
 
 ```
-git clone https://github.com/EmelKrist/ip-keeper.git
+git clone https://github.com/EmelKrist/ip-keeper-app.git
 ```
 
 2. Далее (если у вас OpenServer 6 версии) нужно добавить в корневую директорию проекта папку **.osp**, куда поместить файл **project.ini**. Это нужно для настройки вашего OpenServer'a. Туда требуется добавить именование вашего домена и версию PHP. В моем случае содержимое выглядело так:
