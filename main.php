@@ -81,7 +81,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IP scanner</title>
+    <title>IP keeper</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <style>
@@ -133,7 +133,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </form>
                 </div>
                 <div class="col text-center">
-                    <h1 class="mb-0 fw-bold">IP scanner</h1>
+                    <h1 class="mb-0 fw-bold">IP keeper</h1>
                 </div>
                 <div class="col-auto d-flex justify-content-end">
                     <a href="logout.php" class="btn btn-danger" style="min-width: 120px;">Выход</a>
