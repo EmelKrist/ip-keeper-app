@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Noto+Sans+Mono:wght@100..900&display=swap");
+
+* {
+  font-family: "Comfortaa", sans-serif;
+}
+
+body {
+  background-color: #122738;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 400px;
+  margin-top: 100px;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #024b66;
+}
+
+.card-header {
+  background-color: #005875;
+}
+
+.btn {
+  background-color: #122738;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0e1820;
+  border-color: #0f2734;
+}
+
+.btn:active,
+.btn:focus {
+  border-color: #005875;
+}
+
+.form-control:focus,
+.form-control:active {
+  border-color: #05293d;
+}
+
+.form-control:active {
+  outline: none;
+}
+
+.form-label {
+  color: #aaaaaa;
+}
+
+header {
+  background-color: #ffc600;
+  color: #122738;
+}
+
+p > a {
+  color: #ffc600;
+}
+
+p > a:hover {
+  color: #ffeca6;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.toggle-password span {
+  cursor: pointer;
+}
